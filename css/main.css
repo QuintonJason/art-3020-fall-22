@@ -33,3 +33,25 @@ h2 {
 .button-small {
   font-size: 12px;
 }
+
+/* HEADER STYLES */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* START HOMEPAGE STYLES */
+
+/* END HOMEPAGE STYLES */
+
+/* START ABOUT STYLES */
+.about-wrapper {
+
+}
+/* END ABOUT STYLES */
+
+.items {
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+}
