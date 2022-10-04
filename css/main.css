@@ -19,6 +19,7 @@ h2 {
   border: none;
   cursor: pointer;
   padding: 12px;
+  text-decoration: none;
 }
 
 .button:hover,
