@@ -1,6 +1,8 @@
 /* Place CSS styles here */
 body {
   font-family: 'Roboto Mono', monospace;
+  color: #1b1b1b;
+  font-size: 16px;
 }
 
 h1,
@@ -10,6 +12,15 @@ h4,
 h5,
 h6 {
   font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.4;
 }
 
 img {
@@ -46,7 +57,10 @@ h2 {
   border: none;
   cursor: pointer;
   padding: 12px;
+  font-size: 1.25rem;
   text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .button:hover,
@@ -99,4 +113,31 @@ h2 {
   display: flex;
   max-width: 600px;
   margin: 0 auto;
+}
+
+.giraffe-color {
+  color: #666;
+}
+
+.giraffe-badass {
+  color: #bada55;
+}
+
+.giraffe-italics {
+  font-style: italic;
+}
+
+.giraffe-site-title {
+  font-size: 3rem;
+  letter-spacing: 4px;
+  text-align: center;
+  text-shadow: 3px 3px 7px #00c200;
+}
+
+.giraffe-site-title-3:hover {
+  opacity: 0;
+}
+
+.giraffe-site-title-0:hover {
+  opacity: 0;
 }
